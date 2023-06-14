@@ -20,7 +20,7 @@ import {
   };
   
   //Creates the camera (point of view of the user)
-  const camera = new PerspectiveCamera(75, size.width / size.height);
+  const camera = new PerspectiveCamera(70, size.width / size.height);
   camera.position.z = 15;
   camera.position.y = 13;
   camera.position.x = 8;
